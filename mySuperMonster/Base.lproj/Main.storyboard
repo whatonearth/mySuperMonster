@@ -140,10 +140,8 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="backGroundImg" destination="mta-PJ-GdW" id="7Cc-AC-Ide"/>
                         <outlet property="foodImg" destination="L72-Mh-laU" id="TAN-QW-fK5"/>
                         <outlet property="heartImg" destination="OZn-Td-O57" id="upP-gP-pyZ"/>
-                        <outlet property="lifePanelImg" destination="08J-WS-jwL" id="UJz-de-76t"/>
                         <outlet property="monsterImg" destination="ewk-Zc-aeX" id="K3d-9w-wNO"/>
                         <outlet property="skull1Img" destination="mi5-Lu-QgY" id="UoT-X7-bUV"/>
                         <outlet property="skull2Img" destination="btF-I3-JGL" id="5wq-On-I6f"/>
@@ -152,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="339" y="370.5"/>
+            <point key="canvasLocation" x="216" y="94"/>
         </scene>
     </scenes>
     <resources>

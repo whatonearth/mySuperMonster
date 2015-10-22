@@ -92,11 +92,11 @@ class ViewController: UIViewController {
         heartImg.userInteractionEnabled = false
         
         if currentItem == 0 {
-            heartBeatMusic.play()
+            heartBeatMusic.play() // for love affection
             
         }else  {
         
-            biteMusic.play()
+            biteMusic.play() // for food eating
         }
         
     }
@@ -129,7 +129,7 @@ class ViewController: UIViewController {
         
         }
         
-        let rand = arc4random_uniform(2) // 0 or 1
+        let rand = arc4random_uniform(2) // 0 for heart and 1 for food
         
         if rand == 0 {
             foodImg.alpha = DIM_ALPHA
